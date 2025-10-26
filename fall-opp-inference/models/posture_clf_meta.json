@@ -1,0 +1,23 @@
+{
+  "model_type": "XGBoost",
+  "features_used": [
+    "aspect_bbox",
+    "shank_angle_R",
+    "shank_angle_L",
+    "angle_deg",
+    "thigh_angle_L",
+    "center_y_rel",
+    "upperarm_R",
+    "std_y_rel",
+    "upperarm_L",
+    "shoulder_width_rel",
+    "shoulder_hip_ratio",
+    "body_len_est",
+    "std_x_rel",
+    "shoulder_width",
+    "pose_area"
+  ],
+  "threshold": 0.48975083231925964,
+  "best_iteration": 971,
+  "best_auc_valid": 0.9622412471249681
+}
