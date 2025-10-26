@@ -25,28 +25,6 @@ The system analyzes pose geometry (angles, proportions, dispersion) and uses a t
 
 ---
 
-## 🏗️ Project Structure
-
-```
-fall_opp/
-├── data/
-│   ├── chute01/ cam1.avi … cam8.avi
-│   └── chute23/ cam1.avi … cam8.avi
-├── models/
-│   ├── posture_clf_xgb.json
-│   └── posture_clf_meta.json
-├── src/
-│   ├── extract_pose_features.py
-│   ├── annotate_stickman_samples.py
-│   └── video_infer.py
-├── outputs/
-│   ├── ann_video/
-│   ├── scores_csv/
-│   └── events/
-└── run_all.sh
-```
-
----
 
 ## ⚙️ Installation
 
